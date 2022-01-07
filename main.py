@@ -55,7 +55,7 @@ while 1:
 
             transparentOverlay(face_glass_roi_color, specs)
             transparentOverlay(face_cigar_roi_color, cigar, (int(w / 2), int(sh_cigar / 2)))
-            #transparentOverlay(face_mus_roi_color, mustache)
+            transparentOverlay(face_mus_roi_color, mustache)
 
     cv2.imshow('Thug Life', img)
     key = cv2.waitKey(1) & 0xFF
